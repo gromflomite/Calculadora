@@ -10,9 +10,8 @@ namespace Calculadora
             double userNum1, userNum2;
 
             do
-            {
-                Console.WriteLine("\n\t **** CALCULADORA **** ");
-                Console.WriteLine("\n\t 1. Suma \n\t 2. Resta \n\t 3. Multiplicación \n\t 4. Potencia \n\t 5. División \n\t 6. Raiz \n\t 7. Salir");
+            {                
+                Console.WriteLine("\n\t **** CALCULADORA **** \n\t 1. Suma \n\t 2. Resta \n\t 3. Multiplicación \n\t 4. Potencia \n\t 5. División \n\t 6. Raiz \n\t 7. Salir");
 
                 Console.Write("\n\t Seleccione una opción: ");
                 userSelection = Convert.ToInt32(Console.ReadLine());                
