@@ -15,17 +15,11 @@ namespace Calculadora
                 Console.WriteLine("\n\t 1. Suma \n\t 2. Resta \n\t 3. Multiplicación \n\t 4. Potencia \n\t 5. División \n\t 6. Raiz \n\t 7. Salir");
 
                 Console.Write("\n\t Seleccione una opción: ");
-                userSelection = Convert.ToInt32(Console.ReadLine());
-
-                //Console.Write("\n\t Introduzca el primer número: ");
-                //userNum1 = Convert.ToDouble(Console.ReadLine());
-                //Console.Write("\n\t Introduzca el segundo número (no se tendrá en cuenta para el cálculo de raices): ");
-                //userNum2 = Convert.ToDouble(Console.ReadLine());
+                userSelection = Convert.ToInt32(Console.ReadLine());                
 
                 switch (userSelection)
                 {
                     case 1:
-
                         Console.Write("\n\t Introduzca el primer número: ");
                         userNum1 = Convert.ToDouble(Console.ReadLine());
                         Console.Write("\n\t Introduzca el segundo número: ");
